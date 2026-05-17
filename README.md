@@ -1,8 +1,6 @@
 # netwatch
-network monitor 
+Netwatch v7 is a Python-based, non‑root network monitoring tool packaged to run from Bash inside a Docker container. It performs unprivileged discovery and TCP connect port scans, keeps all state in memory (no persistent logs or databases by default), and sends alerts only via Signal using a local Signal REST gateway (for example, signal-cli-rest). The container runs as a non‑root user and is intended for ephemeral, low‑footprint monitoring.
 
-# netwatch
-network monitor 
 
 ### SIMPLE README, SCROLL DOWN FOR NERDY MF README
 Netwatch v7 is a small program that looks for devices on your home Wi‑Fi and sends a message to your Signal app if something new or risky appears. It runs inside Docker and you start it from the command line.
@@ -370,3 +368,5 @@ Rate‑limited escalation: escalate critical alerts to a secondary channel if Si
 Automated remediation hooks: integrate with orchestration tools to isolate risky hosts automatically (requires careful security review).
 
 Unit and integration test suite: comprehensive tests with CI pipelines and reproducible test fixtures.
+
+**baked with love**
