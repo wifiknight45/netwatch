@@ -1,3 +1,9 @@
+
+![Version](https://img.shields.io/badge/version-v7.0.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Python](https://img.shields.io/badge/python-3.11-blue?style=for-the-badge)
+
+
 # netwatch
 Netwatch v7 is a Python-based, non‑root network monitoring tool packaged to run from Bash inside a Docker container. It performs unprivileged discovery and TCP connect port scans, keeps all state in memory (no persistent logs or databases by default), and sends alerts only via Signal using a local Signal REST gateway (for example, signal-cli-rest). The container runs as a non‑root user and is intended for ephemeral, low‑footprint monitoring.
 
