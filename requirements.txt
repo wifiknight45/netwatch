@@ -1,0 +1,17 @@
+pytest==7.4.0               # test runner
+pytest-asyncio==0.21.0      # asyncio support for pytest
+black==24.1.0               # code formatter
+ruff==0.12.0                # fast linter / formatter
+isort==5.12.0               # import sorting
+mypy==1.9.0                 # static type checker
+types-requests==2.31.0      # type stubs for requests (if used)
+pre-commit==3.4.0           # git hooks
+tox==4.8.0                  # test automation
+pip-tools==7.1.0            # requirements management (pip-compile)
+bandit==1.8.1               # security linter for Python
+safety==2.4.0               # dependency vulnerability scanner
+
+Dev convenience (optional bruh)
+ipython==8.18.0             # interactive REPL for debugging
+httpx==0.24.1               # async HTTP client for testing (optional)
+aiohttp-socks==0.8.0        # socks support for aiohttp (optional)
